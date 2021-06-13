@@ -105,3 +105,17 @@ hr{
 .text-element{
     color:var(--colorElement);
 }
+
+.test-button{
+    background-color: white;
+    border: solid 2px #8bc34a;
+    border-radius: .25rem;
+    /* box-shadow: 0 0 10px black; */
+    font-size: 1.35rem;
+    padding: .5rem;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+.test-button:hover{
+    background-color: #8bc34a;
+}
